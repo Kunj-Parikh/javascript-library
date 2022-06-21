@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="jfl.css">
+    <title>Javascript Library</title>
+</head>
+<body>
+    <div id="be"></div>
+    <div id="beginning">
+        <h1 id="librar">Library</h1>
+    </div>
+    <br>
+    <form>
+
+        <fieldset>
+
+            <label for="bname">Book Name:</label>
+            <input type="text" id="bname" name="bname">
+            <br>
+            <label for="auth">Author:</label>
+            <input type="text" id="auth" name="auth">
+            <br>
+            <label for="pgCount">No. of Pages: </label>
+            <input type="number" id="pgCount" name="pgCount" min=1>
+            <br>
+            <label for="readOrNot">Have you read this book?</label>
+            <input type="tel" id="readOrNot" name="readOrNot" pattern="/true|false/">
+            <br>
+            <input type="button" value="Add Book" id="goAdd">
+        
+        </fieldset>
+        
+    </form>
+    <br id="afterThis">
+    <div id="appended">
+
+    </div>
+    <script src="jfl.js"></script>
+</body>
+</html>

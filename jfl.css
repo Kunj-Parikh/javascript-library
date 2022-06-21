@@ -1,0 +1,44 @@
+.card {
+    height: 200px;
+    width: 200px;
+    border-radius: 10%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    text-align: center;
+    display: inline-block;
+    margin-left: 2vw;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 5px;
+    margin-top: 2vh;
+}
+input {
+    margin-top: 2vh;
+}
+* {
+    font-family: Calibri;
+    box-sizing: border-box;
+    margin: 0px;
+}
+#beginning {
+    width: 100vw;
+    height: 66.66vh;
+    position: relative;
+    background-attachment: fixed;
+    width: 100vw;
+    height: 66.66vh;
+    background-image: url("library.jpg");
+}
+#librar {
+    position: relative;
+    text-align: center;
+    top: 33.33vh;
+    color: white;
+    background-color: black;
+}
+fieldset {
+    margin-left: auto;
+    margin-right: auto;
+    height: 200px;
+    width: 500px;
+    text-align: center;
+}
